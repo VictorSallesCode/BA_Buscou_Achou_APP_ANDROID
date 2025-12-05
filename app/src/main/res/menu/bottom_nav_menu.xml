@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_map"
+        android:title="Mapa"
+        android:icon="@android:drawable/ic_dialog_map" />
+    <item
+        android:id="@+id/nav_checkin"
+        android:title="Check-in"
+        android:icon="@android:drawable/ic_input_add" />
+
+    <item
+        android:id="@+id/nav_ranking"
+        android:title="Ranking"
+        android:icon="@android:drawable/star_on" />
+</menu>
