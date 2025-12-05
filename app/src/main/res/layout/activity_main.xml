@@ -18,16 +18,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="107dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="Logo"
+        android:elevation="4dp"
+        android:src="@drawable/balogo"
+        app:layout_constraintBottom_toBottomOf="@id/headerBg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/headerBg" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ba Buscou Achou"
+        android:text="Buscou Achou"
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="#333333"
         android:elevation="4dp"
-        android:layout_marginStart="16dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@id/logo"
         app:layout_constraintTop_toTopOf="@id/headerBg"
         app:layout_constraintBottom_toBottomOf="@id/headerBg"/>
 
